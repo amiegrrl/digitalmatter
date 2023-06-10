@@ -3,7 +3,7 @@
   "name": "sanity-nextjs-landing-pages",
   "version": "1.0.3",
   "scripts": {
-    "build": "npm run build",
+    "build": "lerna run build --parallel",
     "build-web": "(cd web && npm run build)",
     "build-studio": "(cd studio && npm run build)",
     "dev": "lerna run dev --parallel",

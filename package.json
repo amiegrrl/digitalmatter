@@ -21,6 +21,7 @@
     "@sanity/components": "^2.14.0",
     "@sanity/core": "^2.36.1",
     "@sanity/default-layout": "^2.36.1",
+    "@sanity/default-login": "^2.36.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0"
   }

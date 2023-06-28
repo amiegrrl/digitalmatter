@@ -776,7 +776,7 @@ var Footer = function Footer() {
       lineNumber: 11,
       columnNumber: 9
     }
-  }, "\xA92020 DIGITAL MATTER", __jsx("br", {
+  }, "\xA92023 DIGITAL MATTER", __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -8209,7 +8209,7 @@ var assign=Object.assign.bind(Object);module.exports=assign;module.exports.defau
         return __webpack_require__(/*! ./pages/index.js */ "./pages/index.js");
       }
     ]);
-  
+
 
 /***/ }),
 
@@ -15217,11 +15217,11 @@ if (false) {} else {
                 l: !1,
                 exports: {}
             };
-            return modules[moduleId].call(module.exports, module, module.exports, __webpack_require__), 
+            return modules[moduleId].call(module.exports, module, module.exports, __webpack_require__),
             module.l = !0, module.exports;
         }
         var installedModules = {};
-        return __webpack_require__.m = modules, __webpack_require__.c = installedModules, 
+        return __webpack_require__.m = modules, __webpack_require__.c = installedModules,
         __webpack_require__.d = function(exports, name, getter) {
             __webpack_require__.o(exports, name) || Object.defineProperty(exports, name, {
                 configurable: !1,
@@ -15262,7 +15262,7 @@ if (false) {} else {
             if ("undefined" != typeof Symbol && Symbol.iterator in Object(arr)) {
                 var _arr = [], _n = !0, _d = !1, _e = void 0;
                 try {
-                    for (var _s, _i = arr[Symbol.iterator](); !(_n = (_s = _i.next()).done) && (_arr.push(_s.value), 
+                    for (var _s, _i = arr[Symbol.iterator](); !(_n = (_s = _i.next()).done) && (_arr.push(_s.value),
                     !i || _arr.length !== i); _n = !0) ;
                 } catch (err) {
                     _d = !0, _e = err;
@@ -15285,7 +15285,7 @@ if (false) {} else {
             if (!obj) return null;
             var keys = Object.keys(obj);
             return 0 === keys.length ? null : keys.reduce(function(result, key) {
-                return result[Object(__WEBPACK_IMPORTED_MODULE_2_hyphenate_style_name__.a)(key)] = obj[key], 
+                return result[Object(__WEBPACK_IMPORTED_MODULE_2_hyphenate_style_name__.a)(key)] = obj[key],
                 result;
             }, {});
         }, useIsUpdate = function() {
@@ -15475,7 +15475,7 @@ if (false) {} else {
             return mediaQuery.split(",").map(function(query) {
                 query = query.trim();
                 var captures = query.match(RE_MEDIA_QUERY), modifier = captures[1], type = captures[2], expressions = captures[3] || "", parsed = {};
-                return parsed.inverse = !!modifier && "not" === modifier.toLowerCase(), parsed.type = type ? type.toLowerCase() : "all", 
+                return parsed.inverse = !!modifier && "not" === modifier.toLowerCase(), parsed.type = type ? type.toLowerCase() : "all",
                 expressions = expressions.match(/\([^\)]+\)/g) || [], parsed.expressions = expressions.map(function(expression) {
                     var captures = expression.match(RE_MQ_EXPRESSION), feature = captures[1].toLowerCase().match(RE_MQ_FEATURE);
                     return {
@@ -15488,7 +15488,7 @@ if (false) {} else {
         }
         function toDecimal(ratio) {
             var numbers, decimal = Number(ratio);
-            return decimal || (numbers = ratio.match(/^(\d+)\s*\/\s*(\d+)$/), decimal = numbers[1] / numbers[2]), 
+            return decimal || (numbers = ratio.match(/^(\d+)\s*\/\s*(\d+)$/), decimal = numbers[1] / numbers[2]),
             decimal;
         }
         function toDpi(resolution) {
@@ -15675,8 +15675,8 @@ if (false) {} else {
                 }
             }
             function isAsyncMode(object) {
-                return hasWarnedAboutDeprecatedIsAsyncMode || (hasWarnedAboutDeprecatedIsAsyncMode = !0, 
-                console.warn("The ReactIs.isAsyncMode() alias has been deprecated, and will be removed in React 17+. Update your code to use ReactIs.isConcurrentMode() instead. It has the exact same API.")), 
+                return hasWarnedAboutDeprecatedIsAsyncMode || (hasWarnedAboutDeprecatedIsAsyncMode = !0,
+                console.warn("The ReactIs.isAsyncMode() alias has been deprecated, and will be removed in React 17+. Update your code to use ReactIs.isConcurrentMode() instead. It has the exact same API.")),
                 isConcurrentMode(object) || typeOf(object) === REACT_ASYNC_MODE_TYPE;
             }
             function isConcurrentMode(object) {
@@ -15716,15 +15716,15 @@ if (false) {} else {
                 return typeOf(object) === REACT_SUSPENSE_TYPE;
             }
             var hasSymbol = "function" == typeof Symbol && Symbol.for, REACT_ELEMENT_TYPE = hasSymbol ? Symbol.for("react.element") : 60103, REACT_PORTAL_TYPE = hasSymbol ? Symbol.for("react.portal") : 60106, REACT_FRAGMENT_TYPE = hasSymbol ? Symbol.for("react.fragment") : 60107, REACT_STRICT_MODE_TYPE = hasSymbol ? Symbol.for("react.strict_mode") : 60108, REACT_PROFILER_TYPE = hasSymbol ? Symbol.for("react.profiler") : 60114, REACT_PROVIDER_TYPE = hasSymbol ? Symbol.for("react.provider") : 60109, REACT_CONTEXT_TYPE = hasSymbol ? Symbol.for("react.context") : 60110, REACT_ASYNC_MODE_TYPE = hasSymbol ? Symbol.for("react.async_mode") : 60111, REACT_CONCURRENT_MODE_TYPE = hasSymbol ? Symbol.for("react.concurrent_mode") : 60111, REACT_FORWARD_REF_TYPE = hasSymbol ? Symbol.for("react.forward_ref") : 60112, REACT_SUSPENSE_TYPE = hasSymbol ? Symbol.for("react.suspense") : 60113, REACT_SUSPENSE_LIST_TYPE = hasSymbol ? Symbol.for("react.suspense_list") : 60120, REACT_MEMO_TYPE = hasSymbol ? Symbol.for("react.memo") : 60115, REACT_LAZY_TYPE = hasSymbol ? Symbol.for("react.lazy") : 60116, REACT_BLOCK_TYPE = hasSymbol ? Symbol.for("react.block") : 60121, REACT_FUNDAMENTAL_TYPE = hasSymbol ? Symbol.for("react.fundamental") : 60117, REACT_RESPONDER_TYPE = hasSymbol ? Symbol.for("react.responder") : 60118, REACT_SCOPE_TYPE = hasSymbol ? Symbol.for("react.scope") : 60119, AsyncMode = REACT_ASYNC_MODE_TYPE, ConcurrentMode = REACT_CONCURRENT_MODE_TYPE, ContextConsumer = REACT_CONTEXT_TYPE, ContextProvider = REACT_PROVIDER_TYPE, Element = REACT_ELEMENT_TYPE, ForwardRef = REACT_FORWARD_REF_TYPE, Fragment = REACT_FRAGMENT_TYPE, Lazy = REACT_LAZY_TYPE, Memo = REACT_MEMO_TYPE, Portal = REACT_PORTAL_TYPE, Profiler = REACT_PROFILER_TYPE, StrictMode = REACT_STRICT_MODE_TYPE, Suspense = REACT_SUSPENSE_TYPE, hasWarnedAboutDeprecatedIsAsyncMode = !1;
-            exports.AsyncMode = AsyncMode, exports.ConcurrentMode = ConcurrentMode, exports.ContextConsumer = ContextConsumer, 
-            exports.ContextProvider = ContextProvider, exports.Element = Element, exports.ForwardRef = ForwardRef, 
-            exports.Fragment = Fragment, exports.Lazy = Lazy, exports.Memo = Memo, exports.Portal = Portal, 
-            exports.Profiler = Profiler, exports.StrictMode = StrictMode, exports.Suspense = Suspense, 
-            exports.isAsyncMode = isAsyncMode, exports.isConcurrentMode = isConcurrentMode, 
-            exports.isContextConsumer = isContextConsumer, exports.isContextProvider = isContextProvider, 
-            exports.isElement = isElement, exports.isForwardRef = isForwardRef, exports.isFragment = isFragment, 
-            exports.isLazy = isLazy, exports.isMemo = isMemo, exports.isPortal = isPortal, exports.isProfiler = isProfiler, 
-            exports.isStrictMode = isStrictMode, exports.isSuspense = isSuspense, exports.isValidElementType = isValidElementType, 
+            exports.AsyncMode = AsyncMode, exports.ConcurrentMode = ConcurrentMode, exports.ContextConsumer = ContextConsumer,
+            exports.ContextProvider = ContextProvider, exports.Element = Element, exports.ForwardRef = ForwardRef,
+            exports.Fragment = Fragment, exports.Lazy = Lazy, exports.Memo = Memo, exports.Portal = Portal,
+            exports.Profiler = Profiler, exports.StrictMode = StrictMode, exports.Suspense = Suspense,
+            exports.isAsyncMode = isAsyncMode, exports.isConcurrentMode = isConcurrentMode,
+            exports.isContextConsumer = isContextConsumer, exports.isContextProvider = isContextProvider,
+            exports.isElement = isElement, exports.isForwardRef = isForwardRef, exports.isFragment = isFragment,
+            exports.isLazy = isLazy, exports.isMemo = isMemo, exports.isPortal = isPortal, exports.isProfiler = isProfiler,
+            exports.isStrictMode = isStrictMode, exports.isSuspense = isSuspense, exports.isValidElementType = isValidElementType,
             exports.typeOf = typeOf;
         }();
     }, function(module, exports, __webpack_require__) {
@@ -15752,7 +15752,7 @@ if (false) {} else {
             }
             function createChainableTypeChecker(validate) {
                 function checkType(isRequired, props, propName, componentName, location, propFullName, secret) {
-                    if (componentName = componentName || ANONYMOUS, propFullName = propFullName || propName, 
+                    if (componentName = componentName || ANONYMOUS, propFullName = propFullName || propName,
                     secret !== ReactPropTypesSecret) {
                         if (throwOnDirectAccess) {
                             var err = new Error("Calling PropTypes validators directly is not supported by the `prop-types` package. Use `PropTypes.checkPropTypes()` to call them. Read more at http://fb.me/use-check-prop-types");
@@ -15760,7 +15760,7 @@ if (false) {} else {
                         }
                         if ("undefined" != typeof console) {
                             var cacheKey = componentName + ":" + propName;
-                            !manualPropTypeCallCache[cacheKey] && manualPropTypeWarningCount < 3 && (printWarning("You are manually calling a React.PropTypes validation function for the `" + propFullName + "` prop on `" + componentName + "`. This is deprecated and will throw in the standalone `prop-types` package. You may be seeing this warning due to a third-party PropTypes library. See https://fb.me/react-warning-dont-call-proptypes for details."), 
+                            !manualPropTypeCallCache[cacheKey] && manualPropTypeWarningCount < 3 && (printWarning("You are manually calling a React.PropTypes validation function for the `" + propFullName + "` prop on `" + componentName + "`. This is deprecated and will throw in the standalone `prop-types` package. You may be seeing this warning due to a third-party PropTypes library. See https://fb.me/react-warning-dont-call-proptypes for details."),
                             manualPropTypeCallCache[cacheKey] = !0, manualPropTypeWarningCount++);
                         }
                     }
@@ -15810,7 +15810,7 @@ if (false) {} else {
                     });
                     return new PropTypeError("Invalid " + location + " `" + propFullName + "` of value `" + String(propValue) + "` supplied to `" + componentName + "`, expected one of " + valuesString + ".");
                 }
-                return Array.isArray(expectedValues) ? createChainableTypeChecker(validate) : (printWarning(arguments.length > 1 ? "Invalid arguments supplied to oneOf, expected an array, got " + arguments.length + " arguments. A common mistake is to write oneOf(x, y, z) instead of oneOf([x, y, z])." : "Invalid argument supplied to oneOf, expected an array."), 
+                return Array.isArray(expectedValues) ? createChainableTypeChecker(validate) : (printWarning(arguments.length > 1 ? "Invalid arguments supplied to oneOf, expected an array, got " + arguments.length + " arguments. A common mistake is to write oneOf(x, y, z) instead of oneOf([x, y, z])." : "Invalid argument supplied to oneOf, expected an array."),
                 emptyFunctionThatReturnsNull);
             }
             function createObjectOfTypeChecker(typeChecker) {
@@ -15833,11 +15833,11 @@ if (false) {} else {
                     }
                     return new PropTypeError("Invalid " + location + " `" + propFullName + "` supplied to `" + componentName + "`.");
                 }
-                if (!Array.isArray(arrayOfTypeCheckers)) return printWarning("Invalid argument supplied to oneOfType, expected an instance of array."), 
+                if (!Array.isArray(arrayOfTypeCheckers)) return printWarning("Invalid argument supplied to oneOfType, expected an instance of array."),
                 emptyFunctionThatReturnsNull;
                 for (var i = 0; i < arrayOfTypeCheckers.length; i++) {
                     var checker = arrayOfTypeCheckers[i];
-                    if ("function" != typeof checker) return printWarning("Invalid argument supplied to oneOfType. Expected an array of check functions, but received " + getPostfixForTypeWarning(checker) + " at index " + i + "."), 
+                    if ("function" != typeof checker) return printWarning("Invalid argument supplied to oneOfType. Expected an array of check functions, but received " + getPostfixForTypeWarning(checker) + " at index " + i + "."),
                     emptyFunctionThatReturnsNull;
                 }
                 return createChainableTypeChecker(validate);
@@ -15980,8 +15980,8 @@ if (false) {} else {
                 shape: createShapeTypeChecker,
                 exact: createStrictShapeTypeChecker
             };
-            return PropTypeError.prototype = Error.prototype, ReactPropTypes.checkPropTypes = checkPropTypes, 
-            ReactPropTypes.resetWarningCache = checkPropTypes.resetWarningCache, ReactPropTypes.PropTypes = ReactPropTypes, 
+            return PropTypeError.prototype = Error.prototype, ReactPropTypes.checkPropTypes = checkPropTypes,
+            ReactPropTypes.resetWarningCache = checkPropTypes.resetWarningCache, ReactPropTypes.PropTypes = ReactPropTypes,
             ReactPropTypes;
         };
     }, function(module, exports, __webpack_require__) {
@@ -16037,7 +16037,7 @@ object-assign
                 } catch (ex) {
                     error = ex;
                 }
-                if (!error || error instanceof Error || printWarning((componentName || "React class") + ": type specification of " + location + " `" + typeSpecName + "` is invalid; the type checker function must return `null` or an `Error` but returned a " + typeof error + ". You may have forgotten to pass an argument to the type checker creator (arrayOf, instanceOf, objectOf, oneOf, oneOfType, and shape all require an argument)."), 
+                if (!error || error instanceof Error || printWarning((componentName || "React class") + ": type specification of " + location + " `" + typeSpecName + "` is invalid; the type checker function must return `null` or an `Error` but returned a " + typeof error + ". You may have forgotten to pass an argument to the type checker creator (arrayOf, instanceOf, objectOf, oneOf, oneOfType, and shape all require an argument)."),
                 error instanceof Error && !(error.message in loggedTypeFailures)) {
                     loggedTypeFailures[error.message] = !0;
                     var stack = getStack ? getStack() : "";

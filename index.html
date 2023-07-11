@@ -273,4 +273,31 @@
   <script src="_next/static/chunks/pages/index-a7cf6418aa698b24ad49.js" async=""></script>
   <script src="_next/static/Vo00_FvhNW_jBiYJO62z6/_buildManifest.js" async=""></script>
   <script src="_next/static/Vo00_FvhNW_jBiYJO62z6/_ssgManifest.js" async=""></script>
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    cookieLaw = {
+      dId: "cookie-law-div",
+      bId: "cookie-law-button",
+      iId: "cookie-law-item",
+      timeout: 120,
+      timeoutId: -1,
+      show: function(e) {
+        if (localStorage.getItem(cookieLaw.iId)) return !1;
+        var o = document.createElement("div"),
+          i = document.createElement("p"),
+          t = document.createElement("button");
+        i.innerHTML = e.msg, t.id = cookieLaw.bId, t.innerHTML = e.ok, o.id = cookieLaw.dId, o.appendChild(i), o.appendChild(t), document.body.insertBefore(o, document.body.lastChild), t.addEventListener("click", cookieLaw.hide, !1);
+        cookieLaw.timeoutId = window.setTimeout(cookieLaw.hide, cookieLaw.timeout*5000);
+      },
+      hide: function() {
+        document.getElementById(cookieLaw.dId).outerHTML = "", localStorage.setItem(cookieLaw.iId, "1");
+        window.clearTimeout(cookieLaw.timeoutId);
+      }
+    }, cookieLaw.show({
+      msg: "We use cookies to give you the best possible experience. By continuing to visit our website, you agree to the use of cookies as described in our <a href='/privacy-policy'>Privacy Policy</a>.",
+      ok: "Accept"
+    });
+}, false);
+
+</script>
 </body></html>

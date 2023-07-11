@@ -2627,6 +2627,9 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([[8], {
                 id: "approach",
                 className: "has-hash-link"
             }, I(g, null)), I("div", {
+                id: "careers",
+                className: "has-hash-link"
+            }, I(m, null)),  I("div", {
                 id: "clients",
                 className: "has-hash-link"
             }, I(x, {

@@ -616,6 +616,85 @@ ul {
     }
 }
 
+
+
+.careers {
+    background: #f7f8fa;
+    color: var(--greyish-brown);
+    overflow: hidden;
+    padding: 90px var(--gutter) 90px;
+    position: relative;
+    min-height: calc(100vh - 72px);
+    display: flex;
+}
+
+@media(min-width: 768px) {
+    .careers {
+        padding:100px var(--gutter)
+    }
+}
+
+.careers-content {
+    display: block;
+    width: 1000px;
+    margin: 0 auto;
+    max-width: 90%;
+    border: 1px solid lightgrey;
+    padding: 60px 80px;
+    background-color: white;
+}
+
+.careers__intro {
+    border-bottom: 1px solid;
+    padding: 0 0 50px
+}
+
+@media(min-width: 768px) {
+    .careers__intro {
+        border-bottom:0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+    }
+}
+
+.careers__openings {
+    margin: 20px auto;
+    border-top: 1px solid grey;
+    padding: 40px 30px;
+}
+}
+
+@media(min-width: 768px) {
+    .careers__openings {
+
+    }
+}
+
+.careers h3 {
+    margin: 10px 0;
+}
+
+.careers #lever-jobs-container h4.lever-team-title {
+    font-size: 32px;
+    letter-spacing: 1.2px;
+    line-height: 1.29;
+    font-family: 'Maax';
+    color: #3d3b3b;
+}
+
+.careers #lever-jobs-container .lever-job-tag {
+    display: inline-block;
+    color: rgba(44,46,47,0.5);
+    text-align: right;
+    flex: 0 0 35%;
+}
+
+
+
+
+
 .how-we-do-it {
     background: var(--light-navy);
     color: var(--white);

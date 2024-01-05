@@ -677,11 +677,13 @@ ul {
 }
 
 .careers #lever-jobs-container h4.lever-team-title {
-    font-size: 32px;
+    font-size: 22px;
     letter-spacing: 1.2px;
+    text-transform: uppercase;
     line-height: 1.29;
     font-family: 'Maax';
     color: #3d3b3b;
+    margin-bottom: 30px;
 }
 
 .careers #lever-jobs-container .lever-job-tag {
@@ -689,6 +691,15 @@ ul {
     color: rgba(44,46,47,0.5);
     text-align: right;
     flex: 0 0 35%;
+}
+
+.careers #lever-jobs-container ul li ul {
+    padding: 20px 0 20px 30px;
+    font-family: 'Maax';
+    font-size: 22px;
+    border: 1px solid lightgrey;
+    border-left: none;
+    border-right: none;
 }
 
 

@@ -7,6 +7,7 @@
   <link rel="shortcut icon" href="dm_favicon.ico" type="image/ico"/>
   <link rel="preload" href="_next/static/css/cdb2bf485e007a56182a.css" as="style"/>
   <link rel="stylesheet" href="stylesheet.css" data-n-g=""/>
+  <link rel="stylesheet" href="styles.css" data-n-g=""/>
   <noscript data-n-css="true"></noscript>
   <link rel="preload" href="_next/static/chunks/main-ddd1d06b1c63ee302948.js" as="script"/>
   <link rel="preload" href="_next/static/chunks/webpack-e067438c4cf4ef2ef178.js" as="script"/>
@@ -20,18 +21,7 @@
   <div id="__next">
     <div>
       <div class="header">
-        <div class="header__menu ">
-          <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#approach">Approach</a></li>
-            <li><a href="#clients">Clients</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="/careers.html" target="_blank">Careers</a></li>
-          </ul>
-        </div>
         <h1 class="logo"><a href="/"><img src="DM_LOGO_FULL_COLOR.png" alt="Digital Matter logo full"/></a></h1>
-        <button class="header__burger"><div class=""></div></button>
       </div>
       <div class="main">
         <div id="services" class="has-hash-link">
@@ -66,9 +56,10 @@
             <div class="contact__locations">
               <div class="fade-in is-visible">
                 <ul>
-                  <li><span class="eyebrow eyebrow--clear-blue">New York</span><p>300 Park Ave, 12th Floor<br/>New York, NY 10021<br/>U.S.A.</p></li>
-                  <li><span class="eyebrow eyebrow--clear-blue">Portland</span><p>920 SW 6th Avenue,<br/>Portland, OR 97204<br/>U.S.A.</p></li>
-                  <li><span class="eyebrow eyebrow--clear-blue">San Francisco</span><p>156 2nd Street,<br/>San Francisco, CA 94105<br/>U.S.A.</p></li>
+                  <li><span class="eyebrow eyebrow--clear-blue">New York</span><p>300 Park Ave, 5th Floor<br/>New York, NY 10021<br/>U.S.A.</p></li>
+                </ul>
+                <ul class="spacer">
+                  &nbsp;
                 </ul>
               </div>
             </div>
@@ -78,7 +69,7 @@
       <div class="footer">
         <div class="footer__logo-wrapper">
           <a href="/"><img src="DM_LOGO_LETTERMARK_WHITE.png" alt="Digital Matter logo lettermark"/></a>
-          <span>©2023 DIGITAL MATTER<br/>All Rights Reserved</span>
+          <span>©<span id="year"></span> DIGITAL MATTER<br/>All Rights Reserved</span>
         </div>
         <div class="footer__google">
           <img src="footer_images/google_partner_logo.png" alt="google logo"/>
@@ -86,7 +77,7 @@
           <img src="footer_images/microsoft-ads-partner-badge-white.png" alt="microsoft partners logo"/>
         </div>
         <div class="footer__links eyebrow">
-          <span><a href="/careers.html" target="_blank">Careers</a></span>
+          <span><a href="https://jobs.lever.co/digital-matter" target="_blank">Careers</a></span>
           <span><a href="/privacy-policy">Privacy Policy</a></span>
         </div>
         <div class="footer__socials">
@@ -105,7 +96,8 @@
     </div>
   </div>
   <script nomodule="" src="_next/static/chunks/polyfills-a98cee78eb8282e29fb6.js"></script>
-  <script src="_next/static/chunks/main-ddd1d06b1c63ee302948.js" async=""></script>
+  <script src="custom.js"></script>
+  <!-- <script src="_next/static/chunks/main-ddd1d06b1c63ee302948.js" async=""></script> -->
   <script src="_next/static/chunks/webpack-e067438c4cf4ef2ef178.js" async=""></script>
   <script src="_next/static/chunks/framework.1daf1ec1ecf144ee9147.js" async=""></script>
   <script src="_next/static/chunks/commons.cf9740516198a11da0ee.js" async=""></script>

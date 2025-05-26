@@ -493,6 +493,9 @@ ul {
     justify-content: center;
     flex-direction: column;
   }
+  .who-we-are__text p {
+    font-size: 20px;
+  }
 }
 .who-we-are__image {
   display: flex;

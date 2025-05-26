@@ -518,7 +518,12 @@ ul {
       display: flex;
       justify-content: center;
       flex-direction: column;
-    }
+
+        p {
+          font-size: 20px;
+        }  
+    }  
+ 
   }
 
   &__image {

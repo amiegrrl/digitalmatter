@@ -382,10 +382,17 @@ ul {
 }
 .hero__text {
   max-width: 250px;
+  margin-bottom: 60px;
 }
 @media (min-width: 768px) {
   .hero__text {
-    max-width: 515px;
+    max-width: 725px;
+    font-size: 44px;
+  }
+}
+@media (min-width: 992px) {
+  .hero__text {
+    font-size: 52px;
   }
 }
 .hero__text .logo {
@@ -489,12 +496,10 @@ ul {
 }
 .who-we-are__image {
   display: flex;
-  min-height: calc(100vh - var(--header-height));
-  max-height: 355px;
 }
 @media (min-width: 768px) {
   .who-we-are__image {
-    max-height: calc(100vh - var(--header-height));
+    min-height: calc(100vh - var(--header-height));
   }
 }
 .who-we-are__image img {
@@ -592,7 +597,7 @@ ul {
   grid-area: num;
 }
 .what-we-do__list ul.wwd-item > li p {
-  font-size: 18px;
+  font-size: 22px;
   letter-spacing: 0.9px;
   line-height: 1.33;
   grid-area: text;
@@ -601,7 +606,7 @@ ul {
 }
 @media (min-width: 768px) {
   .what-we-do__list ul.wwd-item > li p {
-    font-size: 22px;
+    font-size: 24px;
     letter-spacing: 1.3px;
     line-height: 1.2;
   }
@@ -646,6 +651,11 @@ ul {
 }
 .how-we-do-it__intro p:last-child {
   margin-bottom: 0;
+}
+@media (min-width: 768px) {
+  .how-we-do-it__intro p {
+    font-size: 20px;
+  }
 }
 .how-we-do-it__list {
   background: var(--white);

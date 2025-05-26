@@ -400,9 +400,15 @@ ul {
 
   &__text {
     max-width: 250px;
+    margin-bottom: 60px; //for button height
 
     @media (min-width: 768px) {
-      max-width: 515px;
+      max-width: 725px; //515
+      font-size:44px;
+    }
+
+    @media (min-width: 992px) {
+        font-size: 52px;
     }
 
     .logo {
@@ -517,11 +523,11 @@ ul {
 
   &__image {
     display: flex;
-    min-height: calc(100vh - var(--header-height));
-    max-height: 355px;
+    // max-height: 355px;
 
     @media (min-width: 768px) {
-      max-height: calc(100vh - var(--header-height));
+      // max-height: calc(100vh - var(--header-height));
+      min-height: calc(100vh - var(--header-height));
     }
 
     img {
@@ -622,7 +628,7 @@ ul {
         }
 
         p {
-          font-size: 18px;
+          font-size: 22px;
           letter-spacing: 0.9px;
           line-height: 1.33;
           grid-area: text;
@@ -630,7 +636,7 @@ ul {
           margin-top:10px;
 
           @media (min-width: 768px) {
-            font-size: 22px;
+            font-size: 24px;
             letter-spacing: 1.3px;
             line-height: 1.2;
           }
@@ -685,6 +691,13 @@ ul {
 
     p:last-child {
       margin-bottom: 0;
+    }
+
+    p {
+
+      @media (min-width:768px) {
+        font-size:20px;
+      }
     }
   }
 

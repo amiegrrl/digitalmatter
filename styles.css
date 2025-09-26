@@ -914,12 +914,13 @@ ul {
   padding: 65px var(--gutter);
   position: relative;
 }
-@media (min-width: 768px) {
-  .footer {
-    align-items: flex-start;
-    gap: 80px 0;
-    grid-template: "partner socials" auto "logo links" auto/1fr 1fr;
-  }
+@media(min-width: 768px) {
+    .footer {
+        align-items:flex-start;
+        gap: 80px 0;
+        /* grid-template: "partner socials" auto "logo links" auto/1fr 1fr */
+        grid-template: "logo links" auto / 1fr 1fr;
+    }
 }
 .footer::after {
   background: var(--white);

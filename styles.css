@@ -917,7 +917,7 @@ ul {
 @media (min-width: 768px) {
   .footer {
     align-items: flex-start;
-    gap: 80px 0;
+    /* gap: 80px 0; */
     grid-template: "partner socials" auto "logo links" auto/1fr 1fr;
   }
 }

@@ -914,13 +914,12 @@ ul {
   padding: 65px var(--gutter);
   position: relative;
 }
-@media(min-width: 768px) {
-    .footer {
-        align-items:flex-start;
-        gap: 80px 0;
-        /* grid-template: "partner socials" auto "logo links" auto/1fr 1fr */
-        grid-template: "logo links" auto / 1fr 1fr;
-    }
+@media (min-width: 768px) {
+  .footer {
+    align-items: flex-start;
+    gap: 80px 0;
+    grid-template: "partner socials" auto "logo links" auto/1fr 1fr;
+  }
 }
 .footer::after {
   background: var(--white);
@@ -956,6 +955,7 @@ ul {
   font: normal 22px/1.27 "Maax";
   grid-area: partner;
   letter-spacing: normal;
+  grid-column: 1 / -1;
 }
 .footer__google img {
   margin: 0 25px 25px 0;

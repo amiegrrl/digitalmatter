@@ -946,7 +946,8 @@ ul {
     .footer {
         align-items:flex-start;
         gap: 80px 0;
-        grid-template: "partner socials" auto "logo links" auto/1fr 1fr
+        /* grid-template: "partner socials" auto "logo links" auto/1fr 1fr */
+        grid-template: "logo links" auto / 1fr 1fr;
     }
 }
 

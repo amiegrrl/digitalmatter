@@ -482,8 +482,8 @@ ul {
 }
 
 .who-we-are__text {
-  background: var(--light-navy);
-  color: var(--white);
+  background: var(--white);
+  color: var(--greyish-brown);
   margin-top: calc(-1 * var(--header-height));
   padding: calc(84px + var(--header-height)) var(--gutter) 84px;
 }
